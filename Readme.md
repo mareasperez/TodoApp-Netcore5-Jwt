@@ -1,8 +1,22 @@
 ﻿Implementacion de de JWT en un API-Rest corriendo en NetCore version 5 con lenguaje C# 
 #Build
 ##Para construir la base de datos es necesario instalr dotnet-ef (entityFrameWork)
-´dotnet tool install --global dotnet-ef´
+<br>
+```console
+$ dotnet tool install --global dotnet-ef
+```
+<br>
+
 ## Ejecutar las migraciones
-´dotnet ef migrations add UserRegistrationDto´
+
+```console
+$ dotnet ef migrations add UserRegistrationDto
+```
+<br>
+
 ## Correr API
-´dotnet run´
+
+```console
+$ dotnet run
+```
+<br>
