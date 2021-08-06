@@ -1,10 +1,9 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace TodoApp.Models.DTOs.Requests
 {
-    public class UserRegistrationDto
+    public class UserLoginDto
     {
-        public string Username { get; set; }
         [Required]
         [EmailAddress]
         public string Email { get; set; }
